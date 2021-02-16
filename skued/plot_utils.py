@@ -146,7 +146,7 @@ def indices_to_text(h, k, l):
     t = r"("
     for index in (h, k, l):
         if index < 0:
-            t = t + r"$\bar{" + f"{abs(index)}" + r"}$"
+            t = t + r"$\overline{" + f"{abs(index)}" + r"}$"
         else:
             t = t + f"{index}"
 
